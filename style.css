@@ -1,0 +1,41 @@
+body {
+    background-color: gray;
+}
+
+.slider_container {
+    display: block;
+    overflow: hidden;
+    scroll-behavior: smooth;
+    white-space: nowrap;
+    font-size: 0;
+    width: 70%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 45px;
+}
+
+.video {
+    margin: 0;
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16/9;
+}
+
+.slider_bullet_list {
+    text-align: center;
+    margin-block-start: 10px;
+}
+
+.slider_bullet {
+    display: inline-block;
+    inline-size: 15px;
+    block-size: 15px;
+    background-color: white;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.slider_bullet:hover {
+    background-color: blueviolet;
+}
